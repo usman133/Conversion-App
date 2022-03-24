@@ -13,13 +13,36 @@ body {
     margin: 80px -200px;
     width: 400px;
     height: 60px;
-    border: 1px solid #8a1;
+    border: 1px solid rgb(17, 114, 170);
     font: normal 30px/60px 'Rye';
     text-align: center;
-    color: #451;
-    background: #E3EEB1  ;
+    color: rgb(0, 0, 0);
+    background: #468499;
+    border:4px solid black;
   }
 
   .card-block {
     color: rgb(153, 45, 45);
   }
+
+  #container-fluid {    
+	
+    font-family: Roboto,sans-serif;
+    font-size: 13px;
+    border-spacing: 0;
+    padding: 0;
+    vertical-align: top;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 8px 7px;
+    margin-left:auto;
+    margin-right:auto;
+    display:inline-block;
+    list-style-type:none;
+    min-width:320px;
+    width:auto;
+    height:auto;
+    background-color:#468499;
+    border:4px solid black;
+}
+
