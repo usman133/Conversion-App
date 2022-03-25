@@ -5,3 +5,10 @@ document.getElementById("celciusInput").addEventListener("input", e => {
     document.getElementById("fahrenheitOutput").innerHTML = (celcius * 1.8) + 32;
   })
 
+  //Fahrenheit to Celcius
+document.getElementById("fahrenheitInput").addEventListener("input", e => {
+    let Fahrenheit = e.target.value;
+    document.getElementById("celciusOutput").innerHTML = (Fahrenheit - 32) * 0.5555555555555556;
+  })
+
+  
