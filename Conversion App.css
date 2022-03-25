@@ -23,26 +23,27 @@ body {
 
   .card-block {
     color: rgb(153, 45, 45);
+    
+
   }
 
   #container-fluid {    
 	
     font-family: Roboto,sans-serif;
-    font-size: 13px;
+    font-size: 18px;
     border-spacing: 0;
     padding: 0;
     vertical-align: top;
-    margin-left: auto;
+    margin-left: 2px;
     margin-right: auto;
     padding: 8px 8px 7px;
-    margin-left:auto;
-    margin-right:auto;
     display:inline-block;
     list-style-type:none;
     min-width:320px;
     width:auto;
-    height:auto;
+    height:270px;
     background-color:#468499;
     border:4px solid black;
+    margin-top:150px;
 }
 
