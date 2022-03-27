@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Document</title>
+<style>
+   body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   }
+   .result {
+      font-size: 18px;
+      font-weight: 500;
+      color: rebeccapurple;
+   }
+</style>
+</head>
+<body>
+<h1>Convert 24 hours format to 12 hours</h1>
+<label>Hours </label><input class="hour" type="number"></br>
+<label>Minutes </label><input class="minute" type="number"><br/>
+<div class="result"></div><br />
+<button class="Btn">CLICK HERE</button>
+<h3>Click on the above button to convert the above 24 hour format to 12 hour format</h3>
+<script>
+   let resEle = document.querySelector(".result");
+   let BtnEle = document.querySelector(".Btn");
+   let hrEle,minEle;
+   BtnEle.addEventListener("click", () => {
+      hrEle = document.querySelector('.hour').value;
+      minEle = document.querySelector('.minute').value;
+      if(hrEle>=0 && hrEle<=24 && minEle >=0 && minEle <= 60){
+         let AMorPM='AM';
+         if(hrEle>12)AMorPM='PM';
+         hrEle = (hrEle % 12);
+         resEle.innerHTML = 'TIME = '+hrEle+' : '+minEle+' '+AMorPM;
+      }
+   });
+</script>
+</body>
+</html>
