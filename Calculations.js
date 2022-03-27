@@ -64,9 +64,29 @@ BtnEle.addEventListener("click", () => {
   document.getElementById("bytesInput").addEventListener("input", e => {
     let bytes = e.target.value;
 
-    // Kilobyte
-    if(bytes>=1000){
-      document.getElementById("sizeOutput").innerHTML = bytes / 1000 + ' Kilobyte(s)';
+    // Kilobyte (>= 1000)
+    if(bytes>=1000 && bytes<1000000){
+      document.getElementById("sizeOutput").innerHTML = (bytes / 1000) + ' Kilobyte(s)';
     }
 
+    // Megabyte (>= 1,000,000)
+    else if(bytes>=1000000 && bytes<1000000000){
+    document.getElementById("sizeOutput").innerHTML = (bytes / 1000000) + ' Megabyte(s)';
+    }
+    
+     // Gigabyte (>= 1,000,000,000)
+    else if(bytes>=1000000000 && bytes<8000000000000){
+      document.getElementById("sizeOutput").innerHTML = bytes / 1000000000 + ' Gigabyte(s)';
+      }
+
+    // Terabyte (>= 8,000,000,000,000)
+    else if(bytes>=8000000000000){
+      document.getElementById("sizeOutput").innerHTML = bytes / 8000000000000 + ' Terabyte(s)';
+      }
+
+    // Byte (<1000)
+    else{
+      document.getElementById("sizeOutput").innerHTML = bytes + ' Byte(s)';
+    }
+      
   })
