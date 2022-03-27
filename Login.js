@@ -1,16 +1,16 @@
 // Loop through Array of Students
 var Students = [
 	{ // Object @ 0 index
-		username: "student",
-		password: "welcome123"
+		username: "student1",
+		password: "password1"
 	},
 	{ // Object @ 1 index
-		username: "matt",
-		password: "academy"
+		username: "student2",
+		password: "password2"
 	},
 	{ // Object @ 2 index
-		username: "chris",
-		password: "forever"
+		username: "student3",
+		password: "password3"
 	}
 
 ] 
@@ -31,6 +31,16 @@ function getInfo() {
         
 	}
     alert("Incorrect username or password");
+
+
+
+
+
+
+
+
+
+	
 }
 	
 
