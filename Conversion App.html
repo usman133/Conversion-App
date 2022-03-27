@@ -10,69 +10,157 @@
 
 <h1 class="banner">Conversion App</h1>
  
-<br><br>
+<br><br><br><br><br>
+
+<!-- Temperature: 
+Celcius to Fahrenheit -->
+<h2 style="margin-top:100px; text-align: center;">Temperature:</h2> 
+<button class="collapsible" style="width: 40%; text-align: center; display:inline-block; margin-left: 460px;">From <u>Celcius</u> to <u>Fahrenheit</u></button>
+<div class="content">
+  <div id="container-fluid">
+        
+    <form>
+        <center><h2><u>Temperature</h2></u></center>
+        <P style="font-size: 24px;">From <u>Celcius</u> to <u>Fahrenheit</u></p>
+        <div class="form-group">
+          <label style="font-weight: bold; font-size: 24px;">Celcius:</label>
+            <input id="celciusInput" type="number" class="form-control form-control-lg" style="margin-top: 5px; width:280px; height:30px; font-size: 24px;" placeholder="Enter Celcius...">
+        </div>
+      </form>
+      <div class="card card-danger mb-4">
+        <div class="card-block">
+          <P style="font-size: 24px;">Fahrenheit:</p>
+          <div id="fahrenheitOutput" style="margin-top: -17px; font-size: 24px;"></div>
+        </div>
+      </div>
+      </div>
+</div>
+
+<!--Fahrenheit to Celcius -->
+<button class="collapsible" style="width: 40%; text-align: center; display:inline-block; margin-left: 460px;">From <u>Fahrenheit</u> to <u>Celcius</u></button>
+<div class="content">
+  <div id="container-fluid">
+        
+    <form>
+        <center><h2><u>Temperature</h2></u></center>
+        <P style="font-size: 24px;">From <u>Fahrenheit</u> to <u>Celcius</u></p>
+        <div class="form-group">
+          <label style="font-weight: bold; font-size: 24px;">Fahrenheit:</label>
+            <input id="fahrenheitInput" type="number" class="form-control form-control-lg" style="margin-top: 5px; width:280px; height:30px; font-size: 24px;" placeholder="Enter Fahrenheit...">
+        </div>
+      </form>
+      <div class="card card-danger mb-4">
+        <div class="card-block">
+          <P style="font-size: 24px;">Celcius:</p>
+          <div id="celciusOutput" style="margin-top: -17px; font-size: 24px;"></div>
+        </div>
+      </div>
+      </div>
+</div>
 
 
+<!-- Time: 
+24-hour to 12-hour -->
+<h2 style="margin-top:30px; text-align: center;">Time:</h2> 
+<button class="collapsible" style="width: 40%; text-align: center; display:inline-block; margin-left: 460px;">From <u>24-hour</u> to <u>12-hour</u></button>
+<div class="content">
+  <div id="container-fluid" style="height: 285px;">
 
-<select id="test" name="form_select" onchange="showDiv('hidden_div',this)">
-  <option value="0">No</option>
-  <option value="1">Yes</option>
-</select>
+    <center><h2><u>Time</h2></u></center>
+        <P style="font-size: 24px;">From <u>24-hour</u> to <u>12-hour</u></p>
 
-
-<div id="hidden_div" style="display: none;">
-
+    <label style="font-weight: bold; font-size: 24px;">Hours </label><input class="hour" type="number"style="margin-top: 5px; width:160px; height:30px; font-size: 24px;" placeholder="Enter Hours...">
+    <label style="font-weight: bold; font-size: 24px;">Minutes </label><input class="minute" type="number"style="margin-top: 5px; width:160px; height:30px; font-size: 24px;" placeholder="Enter Minutes..."><br> 
     
-        <div id="container-fluid">
+    <button class="Btn" style="font-size: 24px; margin-top: 20px;">Convert</button>
+<div class="card-block"><div class="result" style="margin-top: 20px; font-size: 24px;"></div><br /></div>
+      </div>
+</div>
+
+
+<!-- Metrics length to imperial length: 
+Kilometers to miles  -->
+<h2 style="margin-top:30px; text-align: center;">Metrics length to imperial length:</h2> 
+<button class="collapsible" style="width: 40%; text-align: center; display:inline-block; margin-left: 460px;">From <u>Kilometers</u> to <u>Miles</u></button>
+<div class="content">
+  <div id="container-fluid">
         
-            <form>
-                <center><h2><u>Temperature</h2></u></center>
-                <h3>From <u>Celcius</u> to <u>Fahrenheit</u></h3>
-                <div class="form-group">
-                  <label style="font-weight: bold;">Celcius:</label><br>
-                    <input id="celciusInput" type="number" class="form-control form-control-lg" style="margin-top: 5px; width:210px; height:30px; font-size: 16px;" placeholder="Enter Celcius...">
-                </div>
-              </form>
-              <div class="card card-danger mb-4">
-                <div class="card-block">
-                  <h4>Fahrenheit:</h4>
-                  <div id="fahrenheitOutput" style="margin-top: -17px;"></div>
-                </div>
-              </div>
-              </div>
-                    
-                    
-                </div>
+    <form>
+        <center><h2><u>Metrics length to imperial length</h2></u></center>
+        <P style="font-size: 24px;">From <u>Kilometers</u> to <u>Miles</u></p>
+        <div class="form-group">
+          <label style="font-weight: bold; font-size: 24px;">Kilometers:</label>
+            <input id="kmInput" type="number" class="form-control form-control-lg" style="margin-top: 5px; width:280px; height:30px; font-size: 24px;" placeholder="Enter Kilometers...">
         </div>
-
-    <!--   
-
-         <div id="container-fluid">
-        
-            <form>
-                <center><h2><u>Temperature</h2></u></center>
-                <h3>From <u>Fahrenheit</u> to <u>Celcius</u></h3>
-                <div class="form-group">
-                  <label style="font-weight: bold;">Fahrenheit:</label><br>
-                    <input id="fahrenheitInput" type="number" class="form-control form-control-lg" style="margin-top: 5px; width:210px; height:30px; font-size: 16px;" placeholder="Enter Fahrenheit...">
-                </div>
-              </form>
-              <div class="card card-danger mb-4">
-                <div class="card-block">
-                  <h4>Celcius:</h4>
-                  <div id="celciusOutput" style="margin-top: -17px;"></div>
-                </div>
-              </div>
-              </div>
-                    
-                    
-                </div>
+      </form>
+      <div class="card card-danger mb-4">
+        <div class="card-block">
+          <P style="font-size: 24px;">Miles:</p>
+          <div id="milesOutput" style="margin-top: -17px; font-size: 24px;"></div>
         </div>
-      </div> 
-   -->
+      </div>
+      </div>
+</div>
 
 
+<!-- Miles to kilometers  -->
+<h2 style="margin-top:30px; text-align: center;">Imperial length to metrics length:</h2> 
+<button class="collapsible" style="width: 40%; text-align: center; display:inline-block; margin-left: 460px;">From <u>Miles</u> to <u>Kilometers</u></button>
+<div class="content">
+  <div id="container-fluid">
         
+    <form>
+        <center><h2><u>Imperial length to metrics length</h2></u></center>
+        <P style="font-size: 24px;">From <u>Miles</u> to <u>Kilometers</u></p>
+        <div class="form-group">
+          <label style="font-weight: bold; font-size: 24px;">Miles:</label>
+            <input id="milesInput" type="number" class="form-control form-control-lg" style="margin-top: 5px; width:280px; height:30px; font-size: 24px;" placeholder="Enter Miles...">
+        </div>
+      </form>
+      <div class="card card-danger mb-4">
+        <div class="card-block">
+          <P style="font-size: 24px;">Kilometers:</p>
+          <div id="kmOutput" style="margin-top: -17px; font-size: 24px;"></div>
+        </div>
+      </div>
+      </div>
+</div>
+
+
+<!-- File sizes  
+Bytes to appropriate file size -->
+<h2 style="margin-top:30px; text-align: center;">File sizes:</h2> 
+<button class="collapsible" style="width: 40%; text-align: center; display:inline-block; margin-left: 460px;">From <u>Bytes</u> to <u>appropriate file size</u></button>
+<div class="content">
+  <div id="container-fluid">
+        
+    <form>
+        <center><h2><u>File sizes</h2></u></center>
+        <P style="font-size: 24px;">From <u>Bytes</u> to <u>appropriate file size</u></p>
+        <div class="form-group">
+          <label style="font-weight: bold; font-size: 24px;">Bytes:</label>
+            <input id="bytesInput" type="number" class="form-control form-control-lg" style="margin-top: 5px; width:280px; height:30px; font-size: 24px;" placeholder="Enter Bytes...">
+        </div>
+      </form>
+      <div class="card card-danger mb-4">
+        <div class="card-block">
+          <!-- <P style="font-size: 24px;">Kilometers:</p> -->
+          <div id="sizeOutput" style="margin-top: 30px; font-size: 24px;"></div>
+        </div>
+      </div>
+      </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -85,6 +173,7 @@
 
 
 <script src="Calculations.js"></script>
+
 
 
 </body>	

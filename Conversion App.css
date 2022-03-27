@@ -1,8 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif;
-    background-size: 100% 200%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    font-family: "Roboto", sans-serif;    
   }
 
   .banner{
@@ -13,7 +10,6 @@ body {
     margin: 80px -200px;
     width: 400px;
     height: 60px;
-    border: 1px solid rgb(17, 114, 170);
     font: normal 30px/60px 'Rye';
     text-align: center;
     color: rgb(0, 0, 0);
@@ -23,8 +19,6 @@ body {
 
   .card-block {
     color: rgb(153, 45, 45);
-    
-
   }
 
   #container-fluid {    
@@ -34,15 +28,55 @@ body {
     border-spacing: 0;
     padding: 0;
     vertical-align: top;
-    margin-left: 2px;
+    margin-left: 440px;
     margin-right: auto;
     padding: 8px 8px 7px;
     display:inline-block;
     list-style-type:none;
     min-width:320px;
-    width:auto;
+    width:40%;
     height:270px;
     background-color:#468499;
-    border:4px solid black;
-    margin-top:150px;
+    border:2px solid black;
+    margin-top:30px;
+    margin-bottom: 25px;
   }
+
+  /* Collapsible */
+  .collapsible {
+    background-color: #468499;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border:2px solid black;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  /* ------------------------------------------- */
+
+  

@@ -7,14 +7,66 @@ document.getElementById("celciusInput").addEventListener("input", e => {
 
   //Fahrenheit to Celcius
 document.getElementById("fahrenheitInput").addEventListener("input", e => {
-    let Fahrenheit = e.target.value;
-    document.getElementById("celciusOutput").innerHTML = (Fahrenheit - 32) * 0.5555555555555556;
+    let fahrenheit = e.target.value;
+    document.getElementById("celciusOutput").innerHTML = (fahrenheit - 32) * 0.5555555555555556;
   })
 
-  
+  //Collapsible
+  var coll = document.getElementsByClassName("collapsible");
+var i;
 
-  function showDiv(divId, element)
-{
-    document.getElementById(divId).style.display = element.value == 1 ? 'block' : 'none';
-
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
 }
+
+
+// Time: 
+// 24-hour to 12-hour
+let resEle = document.querySelector(".result");
+let BtnEle = document.querySelector(".Btn");
+let hrEle,minEle;
+BtnEle.addEventListener("click", () => {
+   hrEle = document.querySelector('.hour').value;
+   minEle = document.querySelector('.minute').value;
+   if(hrEle>=0 && hrEle<=24 && minEle >=0 && minEle <= 60){
+      let AMorPM='AM';
+      if(hrEle>12)AMorPM='PM';
+      hrEle = (hrEle % 12);
+      resEle.innerHTML = 'Time: ' + +hrEle+':'+minEle+' '+AMorPM;
+   }
+});
+
+
+// Metrics length to imperial length: 
+// Kilometers to miles
+  document.getElementById("kmInput").addEventListener("input", e => {
+    let km = e.target.value;
+    document.getElementById("milesOutput").innerHTML = km * 0.62137;
+  })
+
+  // Miles to kilometers
+  document.getElementById("milesInput").addEventListener("input", e => {
+    let miles = e.target.value;
+    document.getElementById("kmOutput").innerHTML = miles * 1.609344;
+  })
+
+
+  // File sizes  
+  // Bytes to appropriate file size
+  document.getElementById("bytesInput").addEventListener("input", e => {
+    let bytes = e.target.value;
+
+    // Kilobyte
+    if(bytes>=1000){
+      document.getElementById("sizeOutput").innerHTML = bytes / 1000 + ' Kilobyte(s)';
+    }
+
+  })
