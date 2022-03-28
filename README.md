@@ -16,6 +16,7 @@ This app offers various conversions to students after that have logged in sucess
   * If there are enough bytes to be a gigabyte convert to a gigabyte.
   * If there are enough bytes to be a terabyte convert to a terabyte.
   
+  
 **How to run?**
 1. Click on the green button the in the top right called 'Code'.
 2. From the dropdown, click on 'Download ZIP'.
@@ -37,6 +38,7 @@ This app offers various conversions to students after that have logged in sucess
      
 6. After logging in, click to expand the converter you would like to use and test with some inputs. 
 7. You may then log out using the 'log out' link at the top of the page.
+
 
 **Tech used:**
 * HTML
