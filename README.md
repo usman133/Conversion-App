@@ -2,7 +2,7 @@
 
 **Description:**
 
-This app offers various converters to students after that have logged in sucessfully. 
+This app offers various converters to students after that they have logged in sucessfully. 
 
 **Conversions include:**
 * Celsius to Fahrenheit.
