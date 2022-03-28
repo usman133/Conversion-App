@@ -23,14 +23,17 @@ Conversions include:
 4. Launch 'Index.html' page in your browser.
 5. Log in using one of the following credentials:
 
-  (i)
+    ** (1)**
   * **Username:** student1
   * **Password:** password1
-    
- **ii) Username:** student2
- **Password:** password2
-**iii) Username:** student3
-       **Password:** password3
+
+    ** (2) **
+  * **Username:** student2
+  * **Password:** password2
+
+     **(3)**
+  * **Username:** student3
+  * **Password:** password3
      
 6. Click to expand the converter you would like to use and test with some inputs. 
 7. You may log out using the 'log out' link at the top of the page.
