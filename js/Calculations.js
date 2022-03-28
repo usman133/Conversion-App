@@ -36,6 +36,8 @@ BtnEle.addEventListener("click", () => {
     document.getElementById("milesOutput").innerHTML = km * 0.62137;
   })
 
+  
+  // Imperial length to mertrics length
   // Miles to kilometers
   document.getElementById("milesInput").addEventListener("input", e => {
     let miles = e.target.value;
