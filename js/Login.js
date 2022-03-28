@@ -16,13 +16,13 @@ var Students = [
 ] 
 
 
-
+// Get user input
 function getInfo() {
 	var username = document.getElementById('username').value
 	var password = document.getElementById('password').value
 
 	for(var i = 0; i < Students.length; i++) {
-		// checks if user input matches username and password of a current index of the Students array
+		//checks if user input matches username and password of a current index of the Students array
 		if(username == Students[i].username && password == Students[i].password) {
 			window.location.replace("Conversion App.html");
             // stops the function if this is found to be true
@@ -31,14 +31,6 @@ function getInfo() {
         
 	}
     alert("Incorrect username or password");
-
-
-
-
-
-
-
-
 
 	
 }

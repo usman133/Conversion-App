@@ -11,22 +11,6 @@ document.getElementById("fahrenheitInput").addEventListener("input", e => {
     document.getElementById("celciusOutput").innerHTML = (fahrenheit - 32) * 0.5555555555555556;
   })
 
-  //Collapsible
-  var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
-  });
-}
-
 
 // Time: 
 // 24-hour to 12-hour
@@ -79,9 +63,9 @@ BtnEle.addEventListener("click", () => {
       document.getElementById("sizeOutput").innerHTML = bytes / 1000000000 + ' Gigabyte(s)';
       }
 
-    // Terabyte (>= 8,000,000,000,000)
-    else if(bytes>=8000000000000){
-      document.getElementById("sizeOutput").innerHTML = bytes / 8000000000000 + ' Terabyte(s)';
+    // Terabyte (>= 1000000000000)
+    else if(bytes>=1000000000000){
+      document.getElementById("sizeOutput").innerHTML = bytes / 1000000000000 + ' Terabyte(s)';
       }
 
     // Byte (<1000)
@@ -90,3 +74,22 @@ BtnEle.addEventListener("click", () => {
     }
       
   })
+
+
+
+    //Collapsible
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } 
+      });
+    }
+    
