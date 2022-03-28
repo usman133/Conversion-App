@@ -22,3 +22,11 @@ This app offers various conversions to students after they have logged in sucess
 5. Log in using one of the following credentials:
 6. Click to expand the converter you would like to use and test with some inputs. 
 7. You may log out using the 'log out' link at the top of the page.
+
+**Tech used:**
+* HTML
+* CSS
+* JavaScript
+* Visual Studio Code
+* Git
+* GitHub
