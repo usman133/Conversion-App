@@ -29,7 +29,7 @@ This app offers various conversions to students after that have logged in sucess
   * **Password:** password1
 
     **(2)**
-  * **Username:** student2
+    * **Username:** student2
   * **Password:** password2
 
     **(3)**
