@@ -23,8 +23,9 @@ Conversions include:
 4. Launch 'Index.html' page in your browser.
 5. Log in using one of the following credentials:
 
-  **i) Username:** student1
-       **Password:** password1
+  * **Username:** student1
+    **Password:** password1
+    
  **ii) Username:** student2
        **Password:** password2
 **iii) Username:** student3
