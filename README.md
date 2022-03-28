@@ -19,7 +19,7 @@ Conversions include:
 **How to run?**
 1. Click on the green button the in the top right called 'Code'.
 2. From the dropdown, click on 'Download ZIP'.
-3. Unzip and load the downloaded folder into your local development envronment. 
+3. Unzip and load the downloaded folder into your local development environment. 
 4. Launch 'Index.html' page in your browser.
 5. Log in using one of the following credentials:
 
@@ -35,8 +35,8 @@ Conversions include:
   * **Username:** student3
   * **Password:** password3
      
-6. Click to expand the converter you would like to use and test with some inputs. 
-7. You may log out using the 'log out' link at the top of the page.
+6. After logging in, click to expand the converter you would like to use and test with some inputs. 
+7. You may then log out using the 'log out' link at the top of the page.
 
 **Tech used:**
 * HTML
