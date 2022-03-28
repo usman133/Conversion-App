@@ -25,16 +25,16 @@ This app offers various conversions to students after that have logged in sucess
 5. Log in using one of the following credentials:
 
     **(1)**
-  * **Username:** student1
-  * **Password:** password1
+    * **Username:** student1
+    * **Password:** password1
 
     **(2)**
     * **Username:** student2
-  * **Password:** password2
+    * **Password:** password2
 
     **(3)**
-  * **Username:** student3
-  * **Password:** password3
+    * **Username:** student3
+    * **Password:** password3
      
 6. After logging in, click to expand the converter you would like to use and test with some inputs. 
 7. You may then log out using the 'log out' link at the top of the page.
