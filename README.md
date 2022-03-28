@@ -4,7 +4,7 @@
 
 This app offers various conversions to students after that have logged in sucessfully. 
 
-Conversions include:
+**Conversions include:**
 * Celsius to Fahrenheit.
 * Fahrenheit to Celsius
 * 24-hour time to a 12-hour time. E.g. 18:00 will convert to 6pm.
@@ -23,15 +23,15 @@ Conversions include:
 4. Launch 'Index.html' page in your browser.
 5. Log in using one of the following credentials:
 
-    (1)
+    **(1)**
   * **Username:** student1
   * **Password:** password1
 
-    (2)
+    **(2)**
   * **Username:** student2
   * **Password:** password2
 
-    (3)
+    **(3)**
   * **Username:** student3
   * **Password:** password3
      
