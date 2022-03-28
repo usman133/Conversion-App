@@ -11,10 +11,10 @@ Conversions include:
 * Metrics length (kilometers) to imperial length (miles).
 * Imperial length (miles) to metrics length (kilometers).
 * Bytes into appropriate file size:
-  o If there are enough bytes to be a kilobyte covert to kilobyte.
-  o If there are enough bytes to be a megabyte convert to a megabyte.
-  o If there are enough bytes to be a gigabyte convert to a gigabyte.
-  o If there are enough bytes to be a terabyte convert to a terabyte.
+  * If there are enough bytes to be a kilobyte covert to kilobyte.
+  * If there are enough bytes to be a megabyte convert to a megabyte.
+  * If there are enough bytes to be a gigabyte convert to a gigabyte.
+  * If there are enough bytes to be a terabyte convert to a terabyte.
   
 **How to run?**
 1. Click on the green button the in the top right called 'Code'.
@@ -23,15 +23,15 @@ Conversions include:
 4. Launch 'Index.html' page in your browser.
 5. Log in using one of the following credentials:
 
-    ** (1)**
+    (1)
   * **Username:** student1
   * **Password:** password1
 
-    ** (2) **
+    (2)
   * **Username:** student2
   * **Password:** password2
 
-     **(3)**
+    (3)
   * **Username:** student3
   * **Password:** password3
      
